@@ -31,6 +31,8 @@ cmd settings put system vibrate_in_normal 1
 cmd settings put system vibrate_when_ringing 1
 cmd settings put global private_dns_specifier dns.adguard.com
 
+#dumpsys deviceidle disable
+
 am force-stop com.miui.powerkeeper
 pm clear com.miui.powerkeeper
 
